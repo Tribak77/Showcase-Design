@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+header {
+    font-size: 33px;
+    color: #000000;
+}
+
+hr {
+    border: #f44336 5px solid;
+    width: 55px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: -10px;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f44336;
+    color: white;
+    padding-top: 65px;
+    padding-left: 30px;
+    position: fixed;
+    min-width: 20%;
+    min-height: 100%;
+    top: 0;
+    margin-top: 0;
+    left: 0;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    margin-top: 70px;
+    padding: 10px 90px 10px 10px ;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 27px;
+}
+
+h2 {
+    color: #f44336;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 25px;
+    font-size: 16.5px;
+}
+
+main {
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.bloc1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6 {
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+}
+
+#img1:hover,#img2:hover,#img3:hover,#img4:hover,#img5:hover,#img6:hover {
+    filter: grayscale(0%) ;
+    cursor: pointer;
+}
+
+#img1, #img2 {
+    height: 400px;
+    width: 463px;
+    margin-top: 15px;
+}
+
+#img3, #img4, #img5, #img6 {
+    height: 270px;
+    width: 463px;
+    margin-top: 5px;
+}
+
+#img1, #img3, #img5 {
+    margin-right: 15px;
+}
+
+#team1, #team2, #team3 {
+    height: 200px;
+    width: 310px;
+}
+
+.bloc2 {
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
+}
+
+.part1 {   
+    width:  310px;
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+.part2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+table {
+width: 470px;
+display: inline-block;
+border-spacing: 0px;
+}
+
+.basic {
+    margin-right: 10px;
+}
+
+#basic {
+    background-color: #616161;
+    color: white;
+    height: 90px;
+    font-size: 25px;
+}
+
+#pro {
+    background-color: #f44336;
+    color: white;
+    height: 90px;
+    font-size: 25px;
+}
+
+table td {
+    background-color: #f1f1f1;
+    font-size: 16.5px;
+    width: 470px;
+    height: 55px;
+    text-align: center;
+    border-top: 1px solid hwb(0 61% 36% / 0.22);
+}
+
+span , .room {
+    color: #808080;
+}
+
+.prix {
+     font-size: 27px;
+}
+.singUp {
+    height: 90px;
+}
+
+#sing1 {
+    background-color: white;
+    height: 50px;
+    width: 100px;
+    border: 0px solid white ;
+    font-size: 16.5px;
+}
+
+#sing1:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#sing2 {
+    background-color: #f44336;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 0px solid  #f44336;
+    font-size: 16.5px;
+}
+
+#sing2:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#name , #email , #message {
+    width: 100%;
+    height: 40px;
+    border: 1px solid hsla(0, 4%, 38%, 0.22);
+}
+
+#send {
+    width: 100%;
+    height: 47px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    border: 0px;
+    font-size: 17px;
+}
+
+#send:hover {
+    background-color:hsl(0, 6%, 68%) ;
+    color: black;
+    cursor: pointer;
+}
+
+footer {
+text-align: center;
+background-color: #f1f1f1;
+height: 70px;
+width: 100vw;
+padding-top: 30px;
+margin-bottom: -10px;
+}
+
+.media a {
+    text-decoration: none;
+    color: black;
+}
+
+.media {
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 150px;
+}
+
+
+
